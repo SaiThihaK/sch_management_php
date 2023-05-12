@@ -19,14 +19,14 @@
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-envelope fa-lg"></i>
                         </span>
-                        <input type="text" name="email" type="email" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="E-mail">
+                        <input type="text" name="email" type="email" required class="form-control form-control-lg rounded-0" placeholder="E-mail">
                     </div>
 
                     <div class="input-group mb-4 input-group-lg">
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-key fa-lg"></i>
                         </span>
-                        <input type="text" name="password" type="password" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="Password">
+                        <input type="text" name="password" type="password" required class="form-control form-control-lg rounded-0" placeholder="Password">
                     </div>
 
                     <div class="form-group d-flex">
@@ -45,7 +45,7 @@
 
                     <div class="d-flex justify-content-center align-item-center">
                         <span class="text-secondary">Don't you have a account yet?</span>
-                        <a href="#" id="to-signup"> &nbsp;Sign up</a>
+                        <a href="<?= ROOT ?>signup" id="to-signup"> &nbsp;Sign up</a>
                         </a>
                     </div>
                 </form>
