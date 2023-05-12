@@ -19,25 +19,25 @@
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-user fa-lg"></i>
                         </span>
-                        <input type="text" name="first_name" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="First Name">
+                        <input type="text" name="first_name" required class="form-control form-control-lg rounded-0" placeholder="First Name">
                     </div>
                     <div class="input-group mb-4 input-group-lg">
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-user fa-lg"></i>
                         </span>
-                        <input type="text" name="last_name" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="Last Name">
+                        <input type="text" name="last_name" required class="form-control form-control-lg rounded-0" placeholder="Last Name">
                     </div>
                     <div class="input-group mb-4 input-group-lg">
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-envelope fa-lg"></i>
                         </span>
-                        <input type="text" name="email" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="E-mail">
+                        <input type="text" name="email" required class="form-control form-control-lg rounded-0" placeholder="E-mail">
                     </div>
                     <div class="input-group mb-4 input-group-lg">
                         <span class="input-group-text rounded-0">
                             <i class="fa-solid fa-mars-and-venus fa-lg"></i>
                         </span>
-                        <select class="form-select form-select-lg rounded-0" id="floadingInputGroup1">
+                        <select class="form-select form-select-lg rounded-0">
                             <option>Select Gender</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -48,7 +48,7 @@
                         <span class="input-group-text rounded-0">
                             <i class="fa-solid fa-ranking-star"></i>
                         </span>
-                        <select class="form-select form-select-lg rounded-0" id="floadingInputGroup1" aria-placeholder="School Rank">
+                        <select class="form-select form-select-lg rounded-0" aria-placeholder="School Rank">
                             <option>Select School Rank</option>
                             <option value="male">Super Admin</option>
                             <option value="female">Admin</option>
@@ -60,13 +60,13 @@
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-key fa-lg"></i>
                         </span>
-                        <input type="text" name="password" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="Password">
+                        <input type="text" name="password" required class="form-control form-control-lg rounded-0" placeholder="Password">
                     </div>
                     <div class="input-group mb-4 input-group-lg">
                         <span class="input-group-text rounded-0">
                             <i class="fa fa-lock fa-lg"></i>
                         </span>
-                        <input type="password" name="re_password" required class="form-control form-control-lg rounded-0" id="floatingInputGroup1" placeholder="Confirm Pasword">
+                        <input type="password" name="re_password" required class="form-control form-control-lg rounded-0" placeholder="Confirm Pasword">
                     </div>
 
 
@@ -77,7 +77,7 @@
 
                     <div class="d-flex justify-content-center align-item-center">
                         <span class="text-secondary">Already have an account?</span>
-                        <a href="#" id="to-signin"> &nbsp;Sign in</a>
+                        <a href="<?php ROOT ?>login" id="to-signin"> &nbsp;Sign in</a>
                         </a>
                     </div>
                 </form>
