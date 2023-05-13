@@ -41,14 +41,14 @@
     <!-- Tab  -->
     <div style="max-width:1000px" class="ps-2 mx-auto mt-5">
         <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
+            <li class="nav-item fs-5" role="presentation">
                 <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="tab" role="button" aria-controls="pills-home" aria-selected="true"><i class="fas fa-file-lines fa-fw me-2"></i>Basic Info</a>
                 <!-- <button class="nav-link active" >Home</button> -->
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item fs-5" role="presentation">
                 <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-chalkboard-user fa-fw me-2"></i>Classes</a>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item fs-5" role="presentation">
                 <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-list-check fa-fw me-2"></i>Tests</a>
             </li>
         </ul>
